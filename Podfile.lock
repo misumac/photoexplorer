@@ -1,0 +1,63 @@
+PODS:
+  - Alamofire (4.5.0)
+  - AlamofireImage (3.2.0):
+    - Alamofire (~> 4.1)
+  - AlamofireNetworkActivityIndicator (2.2.0):
+    - Alamofire (~> 4.5)
+  - HanekeSwift (0.10.1)
+  - Realm (2.10.0):
+    - Realm/Headers (= 2.10.0)
+  - Realm/Headers (2.10.0)
+  - RealmSwift (2.10.0):
+    - Realm (= 2.10.0)
+  - RxCocoa (3.6.1):
+    - RxSwift (~> 3.6)
+  - RxRealm (0.6.0):
+    - RealmSwift (~> 2.5)
+    - RxSwift (~> 3.2)
+  - RxSwift (3.6.1)
+  - SwiftyJSON (3.1.4)
+  - Swinject (2.1.1)
+  - SwinjectStoryboard (1.1.1):
+    - Swinject (~> 2.0)
+
+DEPENDENCIES:
+  - Alamofire (~> 4)
+  - AlamofireImage (~> 3)
+  - AlamofireNetworkActivityIndicator (~> 2.0)
+  - HanekeSwift (from `https://github.com/Haneke/HanekeSwift.git`, branch `feature/swift-3`)
+  - RealmSwift
+  - RxCocoa (~> 3)
+  - RxRealm
+  - RxSwift (~> 3)
+  - SwiftyJSON (~> 3)
+  - Swinject (~> 2)
+  - SwinjectStoryboard (~> 1)
+
+EXTERNAL SOURCES:
+  HanekeSwift:
+    :branch: feature/swift-3
+    :git: https://github.com/Haneke/HanekeSwift.git
+
+CHECKOUT OPTIONS:
+  HanekeSwift:
+    :commit: 2f6d87f1f725d204d85cb34492e8c399cd5a200f
+    :git: https://github.com/Haneke/HanekeSwift.git
+
+SPEC CHECKSUMS:
+  Alamofire: f28cdffd29de33a7bfa022cbd63ae95a27fae140
+  AlamofireImage: 157ed682cc81d3b9db4fb90c1f12180ac552d93b
+  AlamofireNetworkActivityIndicator: 81e1630e7cfed22a4e4e82a174c59e651dc4f8ca
+  HanekeSwift: 4113367892828e7700d24a384027de6ebc79aad1
+  Realm: 98b3a25643cf6b3e07d2b99fb43fe0eb9c801dec
+  RealmSwift: 34073ad3a31232bbaf7c0db898c037940284cba2
+  RxCocoa: 84a08739ab186248c7f31ce4ee92d6f8a947d690
+  RxRealm: 323de579b50b5e0f4a3e087d5925021f976ffaf1
+  RxSwift: f9de85ea20cd2f7716ee5409fc13523dc638e4e4
+  SwiftyJSON: c2842d878f95482ffceec5709abc3d05680c0220
+  Swinject: afea49fd95f392b41171669f165842879c48fad6
+  SwinjectStoryboard: 4c71c25f312322844d39ee06f0f523db7b9b10a3
+
+PODFILE CHECKSUM: 12ded1b38397be6306e53c892cd5cb77289de65e
+
+COCOAPODS: 1.2.1

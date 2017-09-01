@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9532" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="426" height="89"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" horizontalHuggingPriority="240" translatesAutoresizingMaskIntoConstraints="NO" id="n5V-sv-8fH">
+                    <rect key="frame" x="147" y="0.0" width="108" height="89"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </view>
+                <view contentMode="scaleToFill" horizontalHuggingPriority="240" translatesAutoresizingMaskIntoConstraints="NO" id="4AF-D7-Fyd">
+                    <rect key="frame" x="0.0" y="0.0" width="107" height="89"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </view>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="500px" translatesAutoresizingMaskIntoConstraints="NO" id="glF-RF-eWO">
+                    <rect key="frame" x="107" y="25" width="40" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="DCV-Pq-Y53"/>
+                        <constraint firstAttribute="width" constant="40" id="SUn-Ft-pcS"/>
+                    </constraints>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Flickr" translatesAutoresizingMaskIntoConstraints="NO" id="udb-xM-xDD">
+                    <rect key="frame" x="255" y="13" width="64" height="64"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="64" id="EH2-HK-Tsa"/>
+                        <constraint firstAttribute="height" constant="64" id="jtV-IA-Ovh"/>
+                    </constraints>
+                </imageView>
+                <view contentMode="scaleToFill" horizontalHuggingPriority="240" translatesAutoresizingMaskIntoConstraints="NO" id="v5a-QK-abi">
+                    <rect key="frame" x="319" y="0.0" width="107" height="89"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="v5a-QK-abi" firstAttribute="leading" secondItem="udb-xM-xDD" secondAttribute="trailing" id="2km-aX-3G9"/>
+                <constraint firstItem="n5V-sv-8fH" firstAttribute="width" secondItem="4AF-D7-Fyd" secondAttribute="width" id="3Sq-oR-BPp"/>
+                <constraint firstItem="n5V-sv-8fH" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="91I-YV-Ioo"/>
+                <constraint firstItem="v5a-QK-abi" firstAttribute="width" secondItem="4AF-D7-Fyd" secondAttribute="width" id="F7V-5M-awP"/>
+                <constraint firstAttribute="trailing" secondItem="v5a-QK-abi" secondAttribute="trailing" id="N4T-Lb-eBb"/>
+                <constraint firstAttribute="bottom" secondItem="4AF-D7-Fyd" secondAttribute="bottom" id="QQM-eN-oVz"/>
+                <constraint firstItem="glF-RF-eWO" firstAttribute="leading" secondItem="4AF-D7-Fyd" secondAttribute="trailing" id="T9e-2b-ffS"/>
+                <constraint firstItem="glF-RF-eWO" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="XXS-fa-KMg"/>
+                <constraint firstAttribute="bottom" secondItem="v5a-QK-abi" secondAttribute="bottom" id="YQV-Y3-gZV"/>
+                <constraint firstItem="4AF-D7-Fyd" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="b1D-BT-r0v"/>
+                <constraint firstAttribute="bottom" secondItem="n5V-sv-8fH" secondAttribute="bottom" id="cEA-NI-obs"/>
+                <constraint firstItem="udb-xM-xDD" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="d9R-lT-VAG"/>
+                <constraint firstItem="v5a-QK-abi" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="eKW-Tu-chU"/>
+                <constraint firstItem="udb-xM-xDD" firstAttribute="leading" secondItem="n5V-sv-8fH" secondAttribute="trailing" id="hRW-aO-sA6"/>
+                <constraint firstItem="glF-RF-eWO" firstAttribute="centerY" secondItem="udb-xM-xDD" secondAttribute="centerY" id="hVl-YB-4QL"/>
+                <constraint firstItem="n5V-sv-8fH" firstAttribute="leading" secondItem="glF-RF-eWO" secondAttribute="trailing" id="s57-3u-Xg1"/>
+                <constraint firstItem="4AF-D7-Fyd" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="tfC-en-ZeA"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <nil key="simulatedTopBarMetrics"/>
+            <nil key="simulatedBottomBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="219" y="-13.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="500px" width="128" height="128"/>
+        <image name="Flickr" width="128" height="128"/>
+    </resources>
+</document>
